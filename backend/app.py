@@ -22,10 +22,7 @@ def get_fit():
 
 @app.route('/translate', methods=['POST'])
 def translate():
-    data = request.json
-    input_lang = 
-    output_lang = 
-    
+
     # call the speech to text from open ai 
     # given the returned text call the text to speech in the other one
     return
