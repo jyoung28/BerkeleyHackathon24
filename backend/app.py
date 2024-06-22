@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 import os
 import openai
+import config
 
+openai_api_key = config.OPENAI_API_KEY
 app = Flask(__name__)
 
 # In-memory database for simplicity
